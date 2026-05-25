@@ -1,27 +1,140 @@
-# Compiled class file
+# ----------------------------------------------------------------------------
+# Gradle
+# ----------------------------------------------------------------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+.gradletasknamecache
+
+# ----------------------------------------------------------------------------
+# Kotlin
+# ----------------------------------------------------------------------------
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+.kotlin/
 hs_err_pid*
 replay_pid*
 
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
-.kotlin/
+# ----------------------------------------------------------------------------
+# Android Studio / IntelliJ IDEA
+# ----------------------------------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.project
+.classpath
+.settings/
+captures/
+
+# ----------------------------------------------------------------------------
+# Android-specific
+# ----------------------------------------------------------------------------
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.so
+local.properties
+proguard/
+release/
+
+# ----------------------------------------------------------------------------
+# Kotlin Multiplatform / Kotlin Native
+# ----------------------------------------------------------------------------
+*.klib
+kotlin-js-store/
+
+# ----------------------------------------------------------------------------
+# iOS / Xcode
+# ----------------------------------------------------------------------------
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+Pods/
+*.xcworkspace
+!default.xcworkspace
+Podfile.lock
+
+# ----------------------------------------------------------------------------
+# macOS
+# ----------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ----------------------------------------------------------------------------
+# Windows
+# ----------------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ----------------------------------------------------------------------------
+# Linux
+# ----------------------------------------------------------------------------
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ----------------------------------------------------------------------------
+# Secrets & local config (NEVER commit)
+# ----------------------------------------------------------------------------
+*.env
+.env.*
+secrets.properties
+keystore.properties
+*.jks
+*.keystore
+google-services.json
+GoogleService-Info.plist
+
+# ----------------------------------------------------------------------------
+# Logs & temporary files
+# ----------------------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ----------------------------------------------------------------------------
+# Compiled / archived files
+# ----------------------------------------------------------------------------
+*.war
+*.nar
+*.ear
+
+# ----------------------------------------------------------------------------
+# BlueJ
+# ----------------------------------------------------------------------------
+*.ctxt
+.mtj.tmp/
